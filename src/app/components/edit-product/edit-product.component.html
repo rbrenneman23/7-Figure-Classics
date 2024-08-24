@@ -1,0 +1,16 @@
+<h1>Edit Product</h1>
+<form #form="ngForm" (ngSubmit)="onSubmit()" class="labels">
+  <label>Model of Vehicle</label>
+  <input type="text" name="name" [(ngModel)]="currentProduct.name"><br><br>
+
+  <label>Price of Vehicle</label>
+  <input type="text" name="price" [(ngModel)]="currentProduct.price"><br><br>
+
+  <label>Year of Vehicle</label>
+  <input type="text" name="year" [(ngModel)]="currentProduct.year"><br><br>
+
+  <label>Style of Vehicle</label>
+  <input type="text" name="style" [(ngModel)]="currentProduct.style"><br><br>
+
+  <button mat-raised-button type="submit">Confirm Changes</button>
+</form>

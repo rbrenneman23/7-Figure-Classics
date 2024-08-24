@@ -1,0 +1,14 @@
+<div class="center">
+    <mat-card class="example-card">
+        <mat-card-header class="centered">
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{ currentProduct.name }}</mat-card-title>
+            <mat-card-subtitle>{{ currentProduct.year }}</mat-card-subtitle>
+        </mat-card-header>
+        <img [src]="currentProduct.img" alt="{{ currentProduct.name }} image">
+        <mat-card-content>
+        </mat-card-content>
+        <mat-card-subtitle>Car Style: {{ currentProduct.style}} </mat-card-subtitle>
+        <mat-card-subtitle>{{ currentProduct.price | currency:'USD':'symbol':'1.0' }}</mat-card-subtitle>
+    </mat-card>
+</div>

@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Shelby Cobra 427",
+      "price": 1100000,
+      "year": 1966,
+      "img": "assets/cobra.jpg",
+      "style": "Sport"
+    },
+    {
+      "id": "2",
+      "name": "Auburn 852 Supercharged Boattail Speedster",
+      "price": 1017500,
+      "year": 1936,
+      "img": "assets/auburn.webp",
+      "style": "Cruiser"
+    },
+    {
+      "id": "3",
+      "name": "Chevrolet CERV-1",
+      "price": 1320000,
+      "year": 1960,
+      "img": "assets/cerv.jpg",
+      "style": "Racing"
+    },
+    {
+      "id": "4",
+      "name": "Tucker 48",
+      "price": 1347500,
+      "year": 1948,
+      "img": "https://silodrome.com/wp-content/uploads/2019/06/Tucker-48-Car-1.jpg",
+      "style": "Sedan"
+    },
+    {
+      "id": "5",
+      "name": "Duesenberg Model SJ 'Sweep Panel' Phaeton by LaGrande",
+      "price": 2300000,
+      "year": 1933,
+      "img": "https://images7.alphacoders.com/927/927726.jpg",
+      "style": "Cruiser"
+    },
+    {
+      "id": "6",
+      "name": "Shelby GT500 Super Snake",
+      "price": "1300000",
+      "year": "1967",
+      "img": "https://www.speednik.com/wp-content/blogs.dir/1/files/2020/12/rare-rides-the-1967-shelby-gt500-super-snake-2020-12-12_23-28-48_999251.jpg",
+      "style": "Muscle"
+    },
+    {
+      "id": "7",
+      "name": "Corvette L88S Coupe",
+      "price": "3850000",
+      "year": "1967",
+      "img": "https://www.corvsport.com/wp-content/uploads/2023/12/461141.jpg",
+      "style": "Sport"
+    }
+  ]
+}

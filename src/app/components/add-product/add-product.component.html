@@ -1,0 +1,19 @@
+<h1>Add New Vehicle</h1>
+<form #form="ngForm" (ngSubmit)="onSubmit()" class="labels">
+    <label>Model of Vehicle</label>
+    <input type="text" name="model" [(ngModel)]="newProduct.name"><br><br>
+
+    <label>Style of Vehicle</label>
+    <input type="text" name="style" [(ngModel)]="newProduct.style"><br><br>
+
+    <label>Year of Vehicle</label>
+    <input type="text" name="year" [(ngModel)]="newProduct.year"><br><br>
+
+    <label>Image of Vehicle</label>
+    <input type="text" name="img" [(ngModel)]="newProduct.img"><br><br>
+
+    <label>Value of Vehicle</label>
+    <input type="text" name="price" [(ngModel)]="newProduct.price"><br><br>
+
+    <button mat-raised-button type="submit">Add Vehicle to List</button>
+</form>

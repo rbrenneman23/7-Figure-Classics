@@ -1,0 +1,29 @@
+<h1>Our Vehicles</h1>
+
+<div class="buttons">
+  <button class="add" mat-raised-button [routerLink]='["/add"]'>Add New Item</button>
+  <button class="sort-price" mat-raised-button (click)="priceSort()">Sort by Price</button>
+  <button class="sort-year" mat-raised-button (click)="yearSort()">Sort by Year</button>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+  <mat-card class="example-card" *ngFor="let product of productList">
+    <mat-card-header class="centered">
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title class="text">{{ product.name }}</mat-card-title>
+      <mat-card-subtitle class="text">{{ product.price | currency:'USD':'symbol':'1.0' }}</mat-card-subtitle>
+    </mat-card-header>
+    <img [src]="product.img" alt="{{ product.name }} image">
+    <mat-card-content>
+
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button [routerLink]='["/products", product.id]'>More Information</button>
+      <button mat-button [routerLink]='["/edit", product.id]'>Edit Vehicle Information</button>
+      <button mat-button (click)="onDelete(product.id)">Remove Vehicle</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
